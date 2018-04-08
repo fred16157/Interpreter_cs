@@ -1,0 +1,29 @@
+Var a 8
+Var b 17
+Var c 2
+Println a
+a 6
+Println a
+Calc a * 10 + 8 * b - c
+
+Input a
+Println a
+
+If a == 0
+
+Println 2000
+
+EndIf
+
+While a == 4
+
+Input a
+Println 1000
+
+EndWhile
+
+Func main 
+
+
+
+EndFunc
