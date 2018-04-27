@@ -9,8 +9,8 @@ namespace Compiler_cs
     static public class Table
     {
 
-        static public List<string> CodeList;
-        static public Dictionary<string, FuncStruct> FuncTable;
+        static public List<string> CodeList;    //코드가 담길 문자열형 리스트
+        static public Dictionary<string, FuncStruct> FuncTable;     //문자열을 키값으로 받고, 아래에 선언된 함수 스트럭트형을 가져다 값으로 씀
         static public Dictionary<string, string> VarTable;
         static public Dictionary<string, LVarStruct> LVarTable;
 
