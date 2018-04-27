@@ -1,29 +1,20 @@
-Var a 8
-Var b 17
-Var c 2
-Println a
-a 6
-Println a
-Calc a * 10 + 8 * b - c
+Func NewFunc();	/함수;
 
-Input a
-Println a
+Println("Hello World!");	/출력;
 
-If a == 0
+EndFunc;
 
-Println 2000
+Var A;
+A = 0;
+Println(A);	
+If(A <= 0);	/의문문;
 
-EndIf
+NewFunc();
 
-While a == 4
+EndIf;
+While(A == 0);	/반복문;
 
-Input a
-Println 1000
+Println("While");	/While문 검사용;
+Input(A);	/입력;
 
-EndWhile
-
-Func main 
-
-
-
-EndFunc
+EndWhile;
