@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace Compiler_cs
+namespace Interpreter_cs
 {
     class Iosys
     {

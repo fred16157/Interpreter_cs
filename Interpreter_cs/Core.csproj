@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{8870DCF9-5EF9-4766-97CC-CCCEC9FBDB25}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Compiler_cs</RootNamespace>
-    <AssemblyName>Compiler_cs</AssemblyName>
+    <RootNamespace>Interpreter_cs</RootNamespace>
+    <AssemblyName>Interpreter_cs</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,6 @@
     <Compile Include="Code.cs" />
     <Compile Include="Iosys.cs" />
     <Compile Include="main.cs" />
-    <Compile Include="Marshall.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Table.cs" />
   </ItemGroup>

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.CodeDom.Compiler;
 
-namespace Compiler_cs
+namespace Interpreter_cs
 {
     class Code
     {
